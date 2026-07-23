@@ -1,33 +1,28 @@
-# Akash DePIN Telemetry & Hardware Resource Daemon
-
+Akash DePIN Telemetry & Hardware Resource Daemon
 Lightweight DePIN telemetry & hardware resource daemon designed for Akash Network provider workloads, offering real-time metric collection, hardware verification, and verifiable compute reporting.
 
----
-
-## 📐 Architecture & Verification Pipeline
-
-```text
- +-----------------------------------------------------------------------+
- |               Akash DePIN Telemetry & Compute Verification            |
- +-----------------------------------------------------------------------+
-                                     |
-                                     v
-   +-------------------------------------------------------------------+
-   |  1. Node Telemetry Aggregation                                    |
-   |     Real-time tracking of GPU/CPU utilization & uptime metrics    |
-   +-------------------------------------------------------------------+
-                                     |
-                                     v
-   +-------------------------------------------------------------------+
-   |  2. Verification & Attestation Engine                             |
-   |     Detects hardware anomalies & verifies compute benchmarks      |
-   +-------------------------------------------------------------------+
-                                     |
-                                     v
-   +-------------------------------------------------------------------+
-   |  3. Akash On-Chain / API Reporting                                |
-   |     Provides verifiable telemetry data for DePIN deployments      |
-   +-------------------------------------------------------------------+
+📐 Architecture & Verification Pipeline
++-----------------------------------------------------------------------+
+|               Akash DePIN Telemetry & Compute Verification            |
++-----------------------------------------------------------------------+
+|
+v
++-------------------------------------------------------------------+
+|  1. Node Telemetry Aggregation                                    |
+|     Real-time tracking of GPU/CPU utilization & uptime metrics    |
++-------------------------------------------------------------------+
+|
+v
++-------------------------------------------------------------------+
+|  2. Verification & Attestation Engine                             |
+|     Detects hardware anomalies & verifies compute benchmarks      |
++-------------------------------------------------------------------+
+|
+v
++-------------------------------------------------------------------+
+|  3. Akash On-Chain / API Reporting                                |
+|     Provides verifiable telemetry data for DePIN deployments      |
++-------------------------------------------------------------------+
 
 🎯 Architecture Overview & Key Focus Areas
 1. Real-Time Hardware Telemetry
@@ -63,12 +58,12 @@ NVIDIA Container Toolkit (for GPU telemetry)
 Access to an active Akash Provider Node (or local testnet)
 
 Execution Commands
-# 1. Clone the repository
+Clone the repository:
 git clone https://github.com/rataninfralabs/akash-depin-telemetry.git
 cd akash-depin-telemetry
 
-# 2. Install dependencies
+Install dependencies:
 npm install
 
-# 3. Start telemetry daemon
+Start telemetry daemon:
 npm start
