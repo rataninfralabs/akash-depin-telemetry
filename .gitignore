@@ -1,0 +1,22 @@
+# Node & Package Dependencies
+node_modules/
+.pnpm-store/
+
+# Build Outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Python Cache (if telemetry models/scripts are used)
+__pycache__/
+*.py[cod]
+
+# Environment & Config Keys
+.env
+.env.local
+*.log
+
+# IDE & OS System Files
+.DS_Store
+.vscode/
+.idea/
